@@ -29,3 +29,13 @@ yarn dev
 
 The application will start on the default port (typically `http://localhost:3000`).
 
+## Environment Variables
+
+Create a `.env` file in the project root using `.env.example` as a template and
+provide your Supabase project credentials:
+
+```bash
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_public_anon_key
+```
+
