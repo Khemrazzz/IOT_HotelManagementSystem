@@ -1,1 +1,31 @@
-# IOT_HotelManagementSystem
+# Hotel IoT Energy Management System
+
+This project is a prototype for managing energy consumption in a hotel using IoT devices. It provides a simple Node.js server that communicates with various sensors and actuators to optimize power usage in hotel rooms.
+
+## Prerequisites
+
+- **Node.js**: version 18 or later is recommended.
+- **Package manager**: either `npm` (comes with Node.js) or `yarn`.
+
+## Installation
+
+1. Clone this repository.
+2. Install dependencies using your preferred package manager:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+## Running the Development Server
+
+Start the server in development mode with:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+The application will start on the default port (typically `http://localhost:3000`).
+
