@@ -19,7 +19,7 @@ This project is a prototype for managing energy consumption in a hotel using IoT
 
 ## Running the Development Server
 
-Start the server in development mode with:
+After installing dependencies with `npm install`, start the server in development mode using:
 
 ```bash
 npm run dev
@@ -27,15 +27,15 @@ npm run dev
 yarn dev
 ```
 
-The application will start on the default port (typically `http://localhost:3000`).
+The application will start on the default port `http://localhost:5173`.
 
 ## Environment Variables
 
-Create a `.env` file in the project root using `.env.example` as a template and
-provide your Supabase project credentials:
+Copy `.env.example` to `.env` in the project root and provide your Supabase project credentials:
 
 ```bash
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_public_anon_key
 ```
+
 
