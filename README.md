@@ -27,7 +27,7 @@ npm run dev
 yarn dev
 ```
 
-The application will start on the default port `http://localhost:5173`.
+The application will start on the default port `http://localhost:3000`.
 
 ## Environment Variables
 
