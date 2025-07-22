@@ -1,6 +1,6 @@
 import React from 'react';
-import EnergyMonitoringDashboard from './pages/EnergyMonitoringDashboard';
+import EnergyAdminPortal from './pages/EnergyAdminPortal';
 
 export default function App() {
-  return <EnergyMonitoringDashboard />;
+  return <EnergyAdminPortal />;
 }
