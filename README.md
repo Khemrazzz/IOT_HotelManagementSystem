@@ -6,7 +6,8 @@ This repository contains a Next.js dashboard used to monitor rooms, devices and 
 
 - **hotal-management-system/** – Next.js 15 application
   - `src/app/components` – shared UI components such as the sidebar
-  - `src/app/*` – pages for the dashboard, rooms, devices and alerts
+ - `src/app/*` – pages for the dashboard, rooms, devices and alerts
+  - Authentication handled using [Supabase](https://supabase.com) for login
 
 ## Getting Started
 
@@ -26,6 +27,15 @@ This repository contains a Next.js dashboard used to monitor rooms, devices and 
    ```
 
 Visit [http://localhost:3000](http://localhost:3000) to see the dashboard.
+
+### Environment variables
+
+Copy `.env.example` to `.env` and provide your Supabase project keys:
+
+```bash
+cp .env.example .env
+```
+Set `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` in the `.env` file.
 
 ## Building for Production
 
