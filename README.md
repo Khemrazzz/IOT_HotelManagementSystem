@@ -1,41 +1,38 @@
-# Hotel IoT Energy Management System
+# IoT Hotel Management Dashboard
 
-This project is a prototype for managing energy consumption in a hotel using IoT devices. It provides a simple Node.js server that communicates with various sensors and actuators to optimize power usage in hotel rooms.
+This repository contains a Next.js dashboard used to monitor rooms, devices and alerts for a hotel. The UI is built with TypeScript and styled using Tailwind CSS.
 
-## Prerequisites
+## Project Structure
 
-- **Node.js**: version 18 or later is recommended.
-- **Package manager**: either `npm` (comes with Node.js) or `yarn`.
+- **hotal-management-system/** – Next.js 15 application
+  - `src/app/components` – shared UI components such as the sidebar
+  - `src/app/*` – pages for the dashboard, rooms, devices and alerts
 
-## Installation
+## Getting Started
 
-1. Clone this repository.
-2. Install dependencies using your preferred package manager:
+1. Change into the project directory:
+   ```bash
+   cd hotal-management-system
+   ```
+2. Install dependencies:
    ```bash
    npm install
    # or
    yarn install
    ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-## Running the Development Server
+Visit [http://localhost:3000](http://localhost:3000) to see the dashboard.
 
-After installing dependencies with `npm install`, start the server in development mode using:
+## Building for Production
 
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-The application will start on the default port `http://localhost:3000`.
-
-## Environment Variables
-
-Copy `.env.example` to `.env` in the project root and provide your Supabase project credentials:
+To create an optimized build and start the server:
 
 ```bash
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_public_anon_key
+npm run build
+npm start
 ```
-
 
